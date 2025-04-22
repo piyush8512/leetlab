@@ -1,0 +1,30 @@
+1.  mkdir frontend backend
+2.  cd backend/
+3.  npm init -y (for package.json)
+4.  in package.json edit (a. modeule change for importing and seting npm run dev - nodemon src/index.js sript)
+5. npm i -g nodemon ( for global install nodemon)
+6. npm i express in backend 
+7. making src folder in backend project and 
+8. now setting up express in index.js
+9. setting up env file 3000 in env folder
+10.  setting up of config file of dotenv in index.js app
+
+chapter -0 completed -- Basic  setup id done 
+
+1. setting up prisma in backend npm i prisma in backend 
+2. npm i @prism/client 
+3. npx prisma init for prisma folder 
+4. check docker is installed or not 
+5. cmd for postgres in docker $ docker run --name my-postgres \
+  -e POSTGRES_USER=myuser \
+  -e POSTGRES_PASSWORD=mypassword \
+  -p 5432:5432 \
+  -d postgres
+
+6. adding models in schema prisma 
+7. npx prisma generate to generate file 
+8. here ismy new env DATABASE_URL="postgresql://myuser:mypassword@localhost:5432/leetlab?schema=public"
+9.  npx prisma migrate dev 
+10. npx prisma db push to upload push data 
+
+chapter-1 completed prisma setup 
