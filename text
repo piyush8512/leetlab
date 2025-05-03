@@ -28,3 +28,10 @@ chapter -0 completed -- Basic  setup id done
 10. npx prisma db push to upload push data 
 
 chapter-1 completed prisma setup 
+
+auth routes
+1. first we write routes js files
+and then controller 
+2. installing bcrypt file npm i bcrypt
+3. makeing first register controller
+4. npm i jsonwebtoken cookie-parser
