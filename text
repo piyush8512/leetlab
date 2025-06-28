@@ -35,3 +35,18 @@ and then controller
 2. installing bcrypt file npm i bcrypt
 3. makeing first register controller
 4. npm i jsonwebtoken cookie-parser
+5. auth route and controller 
+
+openssl  rand -hex 32 cmd 
+
+
+
+
+
+
+
+piyushlinux 
+123456
+f2Vy4BBjMSmHQ7HqxxMACph9TPcHJW4w
+redispaasword 123456789
+POSTGRES_PASSWORD=123456789

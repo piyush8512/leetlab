@@ -215,7 +215,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\praja\\OneDrive\\Desktop\\Leetcode\\backend\\src\\generated\\prisma",
+      "value": "E:\\desktop\\Leetcode\\backend\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -229,7 +229,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\praja\\OneDrive\\Desktop\\Leetcode\\backend\\prisma\\schema.prisma",
+    "sourceFilePath": "E:\\desktop\\Leetcode\\backend\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {

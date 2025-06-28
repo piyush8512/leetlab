@@ -6,8 +6,8 @@ import jwt from "jsonwebtoken";
 export const register = async (req , res)=>{
     const {email , password , name} = req.body;
 
-    try {
-        const existingUser = await db.user.findUnique({
+    try {   
+        const existingUser = await db.user.findUnique({ 
             where:{
                 email
             }
