@@ -166,7 +166,7 @@ export const updateProblem = async (req, res) => {
     } = req.body;
 
     for (const [language, solutionCode] of Object.entries(referenceSolutions)) {
-      const languageId = getJudge0LangugeId(language);
+      const languageId = getJudge0LanguageId(language);
       if (!languageId) {
         return res.status(400).json({
           error: `Language ${language} not supported`,
